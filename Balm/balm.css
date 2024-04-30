@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Karma:wght@300;400;500;600;700&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background-color: rgb(249,249,249);
+}
+header li{
+    display: inline-block;
+}
+header a{
+  text-decoration: none;  
+  color: rgb(90, 89, 89);
+  background-color: #f2f2f2;
+  padding: 0.5em;
+  border-radius: 17px;
+  margin: 1em;
+  font-size: 1.5em;
+  padding-inline-start: 2.3em;
+  padding-inline-end: 2.3em;
+  margin-left: 1em;
+
+}
+header a:hover{
+    background-color: rgb(177, 166, 224);
+}
+
+header img{
+    float: left;
+    margin-right: 10em;
+    margin-left: 8em;
+    
+}
+
+header nav{
+    background-color:rgb(253, 178, 183);
+    padding: 2em;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+figure{
+    float: right;
+}
+section h1{
+    font-size: 70px;
+    font-family: "Jura", sans-serif;
+    font-weight: lighter;
+    color: rgb(84, 83,83 );
+    
+}
+section p{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Karma", serif;
+}
+
+section h2{
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+}
+section h2 a:hover{
+    background-color: rgb(134, 132, 132);
+
+}
+h2 a{
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* como adiciona fontes? */
+    color: rgb(60, 59, 59);
+    background-color: rgb(183, 183, 183);
+    border-radius: 17px;
+    margin: 7.5em;
+    padding-inline-start: 3em;
+    padding-inline-end: 3em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 500px; left: 20px;
+  
+}
+
+main{
+    margin: 0 auto;
+    /* coloca o bloco no centro quando possui a largura definida */
+    display: flex;
+    /* permite que os elementos fiquem ao lado dos blocos */
+    flex-wrap: wrap;
+    /* permite a quebra de linhas */
+    max-width: 80em; 
+    /* adapta a página de acordo com o tamanho do dispositivo */
+}
+
+a img{
+    text-align: none;
+    border: none;
+    padding: none;
+
+}
+
+address{
+    padding: 2em;
+    background-color: rgb(73, 60, 114);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer{
+    font-family: "Jura", sans-serif;
+    color: rgb(241, 238, 238);
+}
