@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(231, 231, 231);
+  }
+  header li{
+    display: inline-block;
+}
+header a{
+  text-decoration: none;  
+  color: rgb(90, 89, 89);
+  background-color: #f2f2f2;
+  padding: 0.5em;
+  border-radius: 17px;
+  margin: 1em;
+  font-size: 1.5em;
+  padding-inline-start: 2.3em;
+  padding-inline-end: 2.3em;
+  margin-left: 1em;
+
+}
+header a:hover{
+    background-color: rgb(177, 166, 224);
+}
+
+header img{
+    float: left;
+    margin-right: 10em;
+    margin-left: 8em;
+    
+}
+
+header nav{
+    background-color:rgb(253, 178, 183);
+    padding: 2em;
+}
+
+address{
+    padding: 2em;
+    background-color: rgb(73, 60, 114);
+    text-align: center;
+    font-size: 1.2em;
+}
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(73, 60, 114);
+    border: solid 2px rgb(217, 217, 217);
+    border-width: 20px;
+    border-radius: 27px;
+    background-color: rgb(217, 217, 217);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  caption {  
+    font-size: 2em;
+    margin: 1em;
+    color: rgb(73, 60, 114);
+  }
+  
+  table {
+    border: 2px solid rgb(217, 217, 217);
+    display: inline-block;
+    align-items: center;
+    margin: 3em;
+    max-width: 70em;
+    height: 354px;
+    width: 497px;
+    border-radius: 36px;
+    background-color: rgb(217, 217, 217);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /*efeito de drop shadow(saida da tela) */
+  }
+
+table a{
+    text-decoration: none;
+    color: black;
+}
+  
+  tr {
+    padding-right: 10em;
+  }
+
